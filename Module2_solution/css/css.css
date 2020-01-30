@@ -20,6 +20,8 @@ h1
   position: relative;
   margin-left: 70%;
   overflow: hidden;
+  border-right: 0px;
+  border-top: 0px;
 }
 .sec
 {
