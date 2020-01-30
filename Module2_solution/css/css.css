@@ -6,19 +6,24 @@ h1
 {
   text-align: center;
   font-size: 175%;
+  margin-bottom: 50px;
 }
 .hedsec
 {
-  float: right;
+  text-align: center;
+  margin-right:0px;
+  width: 30%;
   padding: 6px;
   background-color: pink;
   border:  2px black solid;
-  margin: 5px;
-  font-size: 125%;
+  margin: 0px;
+  position: relative;
+  margin-left: 70%;
+  overflow: hidden;
 }
 .sec
 {
-  padding: 25px;
+  padding: 10px;
   text-align: left;
 }
 .col-lg-4 ,.col-md-6,.col-md-12
@@ -26,7 +31,6 @@ h1
   background-color: rgb(195,195,195);
   border: 2px solid black;
   margin-bottom: 2.5%;
-  border-radius: 4px;
   margin-left: 3%;
   margin-right: 3%;
 }
@@ -57,7 +61,7 @@ h1
 @media (min-width: 768px) and (max-width: 991px) {
    .col-md-6,.col-md-12 {
     float: left;
-
+   
   }
   .col-md-6 {
     width: 45%;
@@ -70,3 +74,4 @@ h1
     margin-left: 1%;
   }
 }
+
