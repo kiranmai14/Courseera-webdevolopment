@@ -1,0 +1,80 @@
+.selector-for-some-widget {
+  box-sizing: content-box;
+}
+body
+{
+	font-color: rgb(0,0,0);
+	font-family: Comic sans Ms;
+}
+#header-nav
+{
+	background-color : rgb(146,154,153);
+	border-top:  2px solid black;
+	border-bottom: 2px solid black;
+	font-weight: bold;
+}
+
+#nav-list a {
+  text-align: center;
+}
+
+#itemsus
+{
+
+	border-bottom: 1.5px solid black;
+}
+#itemchi
+{
+	border-top: 1.5px solid black;
+}
+.nav-item
+{
+		text-align: center;
+		border-bottom: 1.5px solid black;
+		border-left: 1.5px solid black;
+		border-right: 1.5px solid black;
+}
+#navbarNav
+{
+	margin-top: 10px;
+	background-color: rgb(255,255,255);
+}
+#nav-list a:hover
+{
+	background-color: rgb(146,154,153);
+}
+#Menu
+{
+	font-size: 2em;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-weight: bold;
+}
+#grid > div
+{
+	background-color: rgb(146,154,153);
+	margin-bottom: 40px;
+	padding: 20px;
+}
+.navbar-light .navbar-toggler
+{
+	border: 1.5px solid black;
+}
+.navbar-light .navbar-toggler:hover,.navbar-light .navbar-toggler:focus
+{
+	border: 1.5px solid white;
+	outline: none;
+    box-shadow: none;
+
+}
+.navbar-light span.navbar-toggler-icon:hover,.navbar-light span.navbar-toggler-icon:focus {
+ 
+ background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+     color: white;
+}
+#chicken,#Beef,#sushi
+{
+	font-size: 1.5em;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
