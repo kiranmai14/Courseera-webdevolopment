@@ -1,6 +1,7 @@
 .selector-for-some-widget {
   box-sizing: content-box;
 }
+
 body
 {
 	font-color: rgb(0,0,0);
@@ -23,21 +24,15 @@ body
 
 	border-bottom: 1.5px solid black;
 }
-#itemchi
-{
-	border-top: 1.5px solid black;
-}
-.nav-item
+.nav-item a
 {
 		text-align: center;
 		border-bottom: 1.5px solid black;
-		border-left: 1.5px solid black;
-		border-right: 1.5px solid black;
+		color: white;
 }
 #navbarNav
 {
-	margin-top: 10px;
-	background-color: rgb(255,255,255);
+	background-color : rgb(60,60,60);
 }
 #nav-list a:hover
 {
